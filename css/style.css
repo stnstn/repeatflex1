@@ -1,6 +1,8 @@
 
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 a,a:hover, button, button:hover, .anime{
     transition: all 200ms linear;
@@ -140,4 +142,42 @@ a,a:hover, button, button:hover, .anime{
    	width: 76vw;
    	margin: 0 auto;
    	position: relative;
+   }
+
+   #header{
+       background-image: url('../img/Layer-43.jpg');
+       width: 100%;
+       height: 100vh;
+       position: relative;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       padding-top: 7vh;
+       padding-bottom: 8vh;
+       color: #fff;
+   }
+   #header_top{
+       height: 10vh;
+       overflow: hidden;
+   }
+   #header_logo{
+       background-image: url('../img/BrowserPreview_tmp.png');
+       width: 120px;
+       height: 15vh;
+   }
+   #header_call{
+       text-transform: uppercase;
+       text-decoration: underline;
+       cursor: pointer;
+   }
+   nav li {
+       list-style: none;
+   }
+   nav a {
+       text-decoration: none;
+   }
+
+   #header_bottom a{
+       color: #fff;
+       text-transform: uppercase;
    }
